@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh; /* or any fixed height like 500px */
+  z-index: 0; /* ensures other elements don't overlap */
+}
